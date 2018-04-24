@@ -1,6 +1,6 @@
-# Comandos GIT :3
+# Comandos GIT :3 :octocat:
 
-## 1. Alias 
+## 1. Config Global 
 
 1. git config --global  -l    ---> ver una list de todas las config globales
 2. git config --global  alias."nombreAsignado"  "codigo a reemplazar x el asignado"
@@ -47,7 +47,7 @@
 ## 5. Git Ignore 
 
 1. Creamos el archivo .ignore
-2. Indicamos que archivos no debe darle seguiento example:  *.log / node_modules / etc
+2. Indicamos que archivos no debe darle seguiento example:  *.log / node_modules / etc*
 
 ## 6. Ramas ( para fusionar tenemos que estar en la rama que va absover :3)
 
@@ -61,7 +61,7 @@
 8. Para los manual Merge :
 		- Resolver los archivos en conflicto  , se mostrará <<<< HEAD CONTENT ======  Conflicht CONTENT =======> Despues realizar el commit
 
-## 6. Git Tag
+## 7. Git Tag
 
 1. git tag nombreDeTag (release de tu versionado)
 2. git tag -d nombreDeTag  ( Borra el tag )
@@ -70,7 +70,7 @@
 5. git tag ( Muestra los tag creados )
 6. git show v1.0.0 ( Muestra detalle del tag)
 
-## 7.  Git Stash
+## 8.  Git Stash
 
 1. WIP  --> Working in Progress
 2. git stash ( crea un stash que es como guardar el trabajo dejandolo en stand by (Ya que los archivos se encuentren en el local o el stage ) , hasta resolver otros requerimientos)
@@ -80,7 +80,7 @@
 6. Despues de hacer un la actualizacion de lo cambios manual con el stash y la rama, ahora tenemosgit que borrar el stash con :
 git stash drop ( borrará el stash ya no figura en el log)
 
-## 8.  Git Rebase
+## 9.  Git Rebase
 
 1. Se ultiliza para traer los cambios realizados en una rama a la rama en al que estamos trabajando , clavando los commits antes 
 
@@ -106,7 +106,7 @@ git stash drop ( borrará el stash ya no figura en el log)
 	- ahora agregar los archivos  al stage y luego el commit , ( acá se separan los commits )
 	- git rebase --continue  ( ahora HEAD APUNTARA a Master)
 
-## 9. GitHub / Git  / tags 
+## 10. GitHub / Git  / tags 
 
 1. git push  -u origin master ("ingresamos user y pass origin del nombre d la url remota y master del nombre d la rama")
 2. git pull ( para bajar la data del repo remoto y con fastfoward)
