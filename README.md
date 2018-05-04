@@ -60,6 +60,8 @@
 7. git checkout -b nombreRama (Crea la rama y hace el cambio a esta.)
 8. Para los manual Merge :
 		- Resolver los archivos en conflicto  , se mostrará <<<< HEAD CONTENT ======  Conflicht CONTENT =======> Despues realizar el commit
+9. git branch -a ( Para ver todas las ramas  ocultas)
+
 
 ## 7. Git Tag
 
