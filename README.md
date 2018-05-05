@@ -60,7 +60,9 @@
 7. git checkout -b nombreRama (Crea la rama y hace el cambio a esta.)
 8. Para los manual Merge :
 		- Resolver los archivos en conflicto  , se mostrará <<<< HEAD CONTENT ======  Conflicht CONTENT =======> Despues realizar el commit
-9. git branch -a ( Para ver todas las ramas  ocultas)
+9. git branch -a ( Para ver todas las ramas  ocultas y para posteriormente BOrrarlas)
+10. Despues de hacer lo siguientes git branch -D rama-a-borrar , hacer 11.
+11. git push origin : rama-a-borrar
 
 
 ## 7. Git Tag
@@ -68,7 +70,7 @@
 1. git tag nombreDeTag (release de tu versionado)
 2. git tag -d nombreDeTag  ( Borra el tag )
 3. git tag -a v1.0.0 -m "Version Stable 1.0.0" ( Crea el nuevo tag y ya sale en el log en que commit fue creado)
-4. git tag -a  v0.1.0 345d7de -m "Version Alfa" ( Agregar un tag -  apuntando el commit )
+4. git tag -a  v0.1.0 345d7de -m "Version Alfa" ( Agregar un tag -  apuntando el commit, usted ingresa el commit al cual se le hara el tag )
 5. git tag ( Muestra los tag creados )
 6. git show v1.0.0 ( Muestra detalle del tag)
 
@@ -116,3 +118,6 @@ git stash drop ( borrará el stash ya no figura en el log)
 2. git push --tags ( sube los tags que tengo en el local)
 3. git clone  url "nombre d la carpeta" (descarga todo el contenido d un proyecto )
 
+## ISSUES
+
+1. Se crean para resolver tareas, para el grupo de trabajo  o publico en general que pueda dar el aporte para soluucionarlo  y luego hacer el pull request 
