@@ -118,6 +118,12 @@ git stash drop ( borrará el stash ya no figura en el log)
 2. git push --tags ( sube los tags que tengo en el local)
 3. git clone  url "nombre d la carpeta" (descarga todo el contenido d un proyecto )
 
-## ISSUES
+## ISSUES // MilesStone
 
 1. Se crean para resolver tareas, para el grupo de trabajo  o publico en general que pueda dar el aporte para soluucionarlo  y luego hacer el pull request 
+2. Cuando se hace el push del commit que soluciona el issues indicar en el comentario " mensaje #2 "
+el mensje con el numeral del  issues resuelto
+3. Los MileStone son Grupos de  Issues  Ejemplo poner :
+el MileStone de Octubre ---> quiere decir  todos los Issues que estara para resolver del mes de octubre 
+
+
